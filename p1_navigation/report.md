@@ -65,6 +65,9 @@ episodes.
 - action size: 4
 - ReLu activations for both FC layers
 
+## Plot of Rewards
+![](./rewards.png)
+
 ### Future Advancements
 
 While 35 episodes is no means the quickest or most optimal solution for the
