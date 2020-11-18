@@ -12,8 +12,8 @@ class QNetwork(nn.Module):
                state_size,
                action_size,
                seed,
-               fc1_units=64,
-               fc2_units=64) -> None:
+               fc1_units=32,
+               fc2_units=32) -> None:
     """Initialize params and build model.
 
     Params:
