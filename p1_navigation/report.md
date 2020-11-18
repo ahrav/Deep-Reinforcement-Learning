@@ -43,6 +43,22 @@ params more prominent moving from 1e-3 to 1e-2. After these adjustments the
 agent was able to achieve an average score of 13 over 100 episodes in 35
 episodes.
 
+- Epsilon decay: eps_decay=0.0995
+- Replay buffer size: BUFFER_SIZE = int(1e5)
+- Minibatch size: BATCH_SIZE = 64
+- Discount factor: GAMMA = 0.99
+- For soft update of target parameters: TAU = 1e-2
+- Learning rate: LR = 5.5e-4
+- Update every: 4
+- Epsilon start: 1.0
+- Epsilon end: 0.01
+
+#### Model Architecture
+- 2 Linear fully connected layers each with 32 nodes
+- state size: 37
+- action size: 4
+- ReLu activations for both FC layers
+
 ### Future Advancements
 
 While 35 episodes is no means the quickest or most optimal solution for the
