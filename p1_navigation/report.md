@@ -6,9 +6,15 @@
 
 ## Implementation
 
-### Algorithm
+### Learning Algorithm
 
-- Deep Q-Network
+- Deep Q-Learning (DQN)
+
+The solution implemented is a simple Deep Q-Learning (DQN) algorithm based on
+the classic Deep Mind paper from Nature. Hassabis et al. Human-level control
+through deep reinforcement learning. Nature February 2015. It included
+experience replay and fixed Q targets, both of which are considered standard in
+a DQN.
 
 I used a vanilla Deep Q-Network to approach this problem after reading a little
 about the options available. While this task is placed in a larger dimension
