@@ -75,3 +75,7 @@ The task is episodic, and in order to solve the environment, your agents must ge
 - This yields a single **score** for each episode.
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
+
+You can run the code using the following command in your terminal:
+
+You can also follow the instructions in Tennis.ipynb.
